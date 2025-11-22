@@ -46,9 +46,7 @@ This documentation covers:
 
 ---
 
-<!-- _class: lead -->
-<!-- backgroundImage: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200') -->
-<!-- _color: white -->
+![bg](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80)
 
 # System Architecture
 
@@ -109,7 +107,7 @@ print(response.json())
 
 ---
 
-<!-- _class: lead -->
+![bg left:40%](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80)
 
 ## Key Features
 
@@ -145,6 +143,10 @@ This proves our algorithm scales better than $O(n^2)$ solutions.
 
 ---
 
+![bg fit](https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80)
+
+---
+
 <!-- _footer: Contact: 24f2002696@ds.study.iitm.ac.in -->
 
 # Thank You
@@ -154,16 +156,19 @@ Questions?
 **Repository:** github.com/24f2002696/marp-documentation
 ```
 
-## Step 3: Upload to GitHub
+## Key Changes Made:
 
-1. Go to your repository
-2. Click "Add file" → "Create new file"
-3. Name it `slides.md`
-4. Paste the content above
-5. Commit the file
+1. **Slide 3** - Changed from `backgroundImage:` directive to `![bg]()` syntax
+2. **Slide 7** - Added `![bg left:40%]()` for a split background
+3. **Slide 10** - Added `![bg fit]()` for a full background slide
 
-## Step 4: Get the Raw GitHub URL
+The `![bg]()` syntax is the proper Marp way to add background images. The variations include:
+- `![bg]()` - Full background
+- `![bg fit]()` - Fit to slide
+- `![bg left:40%]()` - Background on left side (40% width)
 
-After committing, click on `slides.md` in your repository, then click the "Raw" button. The URL should look like:
+Now update your `slides.md` file on GitHub with this corrected content, and the raw URL should work correctly!
+
+The raw URL format remains:
 ```
 https://raw.githubusercontent.com/24f2002696/marp-documentation/main/slides.md
